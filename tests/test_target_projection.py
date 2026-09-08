@@ -11,11 +11,12 @@ from torchspec.models.eagle3 import compute_target_p_padded
 
 @pytest.mark.parametrize("layout", ["sparse", "all", "empty", "last"])
 @pytest.mark.parametrize("chunk_size", [1, 4, 4096])
-def test_precomputed_target_matches_dense_across_depths(layout, chunk_size):
+@pytest.mark.parametrize("dtype", [torch.float32, torch.bfloat16])
+def test_precomputed_target_matches_dense_across_depths(layout, chunk_size, dtype):
     torch.manual_seed(7)
     batch, seq, hidden, vocab, depth = 2, 9, 8, 13, 4
-    hs = torch.randn(batch, seq, hidden)
-    teacher = torch.randn(vocab, hidden)
+    hs = torch.randn(batch, seq, hidden, dtype=dtype)
+    teacher = torch.randn(vocab, hidden, dtype=dtype)
     t2d = torch.arange(vocab) % 3 != 0
     mask = torch.zeros(batch, seq)
     if layout == "all":
@@ -63,7 +64,7 @@ def test_precomputed_target_matches_dense_across_depths(layout, chunk_size):
     assert torch.count_nonzero(result.target_p_padded[:, seq:]) == 0
 
     if hasattr(result, "coverage_padded"):
-        coverage = full_logits.softmax(-1)[..., t2d].sum(-1)
+        coverage = full_logits.float().softmax(-1)[..., t2d].sum(-1)
         torch.testing.assert_close(
             result.coverage_padded[:, :seq][mask.bool()], coverage[mask.bool()]
         )
