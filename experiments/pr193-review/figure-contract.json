@@ -1,0 +1,21 @@
+{
+  "claim": "Quantify U/P loss agreement over 1000 matched optimizer steps",
+  "archetype": "quantitative grid",
+  "backend": "python",
+  "dimensions_mm": [
+    183,
+    163
+  ],
+  "outputs": [
+    "png",
+    "svg",
+    "pdf"
+  ],
+  "seed": 42,
+  "runs_per_arm": 1,
+  "train_samples": 1000,
+  "eval_samples": 128,
+  "smoothing": "none",
+  "inferential_statistics": "none; steps are dependent, not independent replicates",
+  "source": "trajectory-comparison.json"
+}

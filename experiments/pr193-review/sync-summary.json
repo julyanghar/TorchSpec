@@ -1,0 +1,26 @@
+{
+  "existing_nonzero": {
+    "ranges": 20,
+    "CPU_ms": 1.470988,
+    "CUDA_API_counts": {
+      "cuKernelGetName": 80,
+      "cudaLaunchKernel_v7000": 80,
+      "cudaMemcpyAsync_v3020": 20,
+      "cudaStreamSynchronize_v3020": 20
+    }
+  },
+  "numel_branch": {
+    "ranges": 20,
+    "CPU_ms": 0.049891,
+    "CUDA_API_counts": {}
+  },
+  "value_item_control": {
+    "ranges": 20,
+    "CPU_ms": 239.267666,
+    "CUDA_API_counts": {
+      "cudaHostAlloc_v3020": 1,
+      "cudaMemcpyAsync_v3020": 20,
+      "cudaStreamSynchronize_v3020": 20
+    }
+  }
+}

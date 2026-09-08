@@ -1,0 +1,102 @@
+[
+  {
+    "iteration": 0,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 1,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 2,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 3,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 4,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 5,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 6,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 7,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 8,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 9,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 10,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 11,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 12,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 13,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 14,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 15,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 16,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 17,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 18,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  },
+  {
+    "iteration": 19,
+    "pending_gpu_work_after_numel": true,
+    "all_valid": false
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "source_corpus_sha256": "5ddf3517c76b0b4d33be21363e5aeb2f20f723a69666ee84a38e85ab5e4bbdc0",
+  "source_rows": 120675,
+  "seed": 42,
+  "train_count": 1000,
+  "eval_count": 128,
+  "tokenizer_model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "max_length": 4096,
+  "last_turn_loss_only": "auto",
+  "native_tokenizer_function": "torchspec.data.dataset._tokenize_single",
+  "selected_jsonl_hashes": {
+    "train": "d2d2b62bcb86458463580bfa01fc86305df51557a9ee564bf2172ded3fded4e5",
+    "eval": "832da8c06948241a81bfbd82229876f4ac4d54d28c2a8db1406fb7f39a2ff454"
+  },
+  "rejected_count": 553
+}

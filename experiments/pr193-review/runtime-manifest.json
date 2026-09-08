@@ -1,0 +1,21 @@
+{
+  "python": "3.12.13",
+  "packages": {
+    "torch": "2.11.0",
+    "triton": "3.6.0",
+    "transformers": "5.8.1",
+    "ray": "2.58.0",
+    "mooncake-transfer-engine": "0.3.13.post1",
+    "datasets": "5.0.0"
+  },
+  "cuda": "13.0",
+  "tf32": false,
+  "deterministic_algorithms": false,
+  "inductor_gemm_backends": "ATEN,TRITON,CPP",
+  "environment": {
+    "TORCHINDUCTOR_MAX_AUTOTUNE_GEMM_BACKENDS": null,
+    "TORCH_COMPILE_DISABLE": null,
+    "OMP_NUM_THREADS": "4",
+    "HF_HUB_OFFLINE": "1"
+  }
+}

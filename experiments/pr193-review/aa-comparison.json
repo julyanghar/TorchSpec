@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "steps": 50,
+  "inputs_identical": true,
+  "initial_parameters_and_master_identical": true,
+  "all_train_metrics_identical": true,
+  "final_parameters_and_master_identical": true
+}

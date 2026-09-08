@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "steps": 50,
+  "all_train_metrics_exact": true,
+  "final_parameters_and_fp32_master_exact": true,
+  "description": "Dense U projection with unused probabilities zeroed afterward; preserves all used values exactly",
+  "GPU_control": 3,
+  "GPU_baseline": 2
+}
